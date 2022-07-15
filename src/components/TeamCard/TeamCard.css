@@ -1,0 +1,24 @@
+.position{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.socials{
+    display: flex;
+    gap: 10px;
+}
+.social{
+    background-color: white;
+    border: 2px solid var(--color-pink);
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--color-pink) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.social:hover{
+    background-color: var(--color-pink);
+    color: white !important;
+}

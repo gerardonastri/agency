@@ -1,0 +1,18 @@
+.featuresCard{
+
+}
+
+.featuresCard svg{
+    font-size: 80px;
+    color: var(--color-pink);
+    margin-bottom: 30px;
+}
+.featuresCard__title{
+    color: var(--color-pink);
+    font-size: 26px;
+}
+.featuresCard__desc{
+    font-size: 14px;
+    color: #252837;
+    font-weight: 400;
+}

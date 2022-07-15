@@ -1,0 +1,19 @@
+.clientsCard{
+    background-color: white;
+    padding: 30px;
+}
+
+.clientsCard img{
+    width: 25%;
+}
+.clientsCard__title{
+    color: var(--color-pink);
+    font-size: 18px;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+.clientsCard__desc{
+    font-size: 14px;
+    color: #252837;
+    font-weight: 400;
+}

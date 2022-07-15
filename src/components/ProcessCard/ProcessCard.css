@@ -1,0 +1,23 @@
+.processCard{
+    padding: 30px;
+    border: 3px solid #efefef;
+    transition: border-color 0.3s ease;
+}
+.processCard_counter{
+    font-size: 14px;
+    color: gray;
+    font-weight: 600;
+}
+.processCard_title{
+    color: var(--color-pink);
+    font-size: 17px;
+    font-weight: 900;
+}
+.processCard_desc{
+    font-size: 14px;
+    color: #252837;
+    font-weight: 400;
+}
+.processCard:hover{
+    border-color: var(--color-pink);
+}

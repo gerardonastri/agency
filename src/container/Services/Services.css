@@ -1,0 +1,112 @@
+.service{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.service__wrapper{
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+    max-width: 1320px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+.service__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.service__info-title{
+    
+}
+.service__info-title div{
+    display: flex;
+    align-items: center;
+}
+.service__info-title h1{
+    font-size: 3.2em;
+    font-weight: 700;
+    color: #252837;
+    margin: 0;
+}
+
+.service__info-history{
+    width: 500px;
+    margin-right: 140px;
+}
+
+.service__info-history p{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+
+.service__line{
+    width: 65px;
+    height: 4px;
+    background-color: var(--color-pink);
+    margin-right: 50px;
+}
+
+.service__card-container{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0 140px;
+}
+
+
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+    .service__wrapper{
+        width: 100%;
+    }
+    .service__info-history{
+        margin-right: 0;
+        margin-left: 20%;
+    }
+    .service__info-history p{
+        max-width: 50%;
+    }
+    .service__card-container{
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .service__info{
+        flex-direction: column;
+    }
+    .service__card-container{
+        grid-template-columns: 1fr;
+    }
+    .service__info-title{
+        margin: 0 auto;
+    }
+    .service__line{
+        margin-right: 20px;
+    }
+    .service__info-history{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service__info-history p{
+        width: 90%;
+    }
+    .service__info-history button{
+        margin: 0 auto;
+    }
+    .service__card-container{
+        padding: 0 20px;
+    }
+
+}

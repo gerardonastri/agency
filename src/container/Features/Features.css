@@ -1,0 +1,28 @@
+.features{
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.features__card-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-left: 100px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+    .features__card-container{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .features__card-container{
+        grid-template-columns: 1fr;
+        padding: 0 30px;
+        margin-top: 60px;
+    }
+
+}

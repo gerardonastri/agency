@@ -1,0 +1,30 @@
+.process{
+    padding: 100px 0;
+    margin-top: 100px;
+}
+
+.process .service__info-title h1{
+    font-size: 2.5em;
+}
+
+.process__card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+    .process__card-container{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .process__card-container{
+        grid-template-columns: 1fr;
+        padding: 0 30px;
+    }
+
+}
