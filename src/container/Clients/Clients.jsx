@@ -4,7 +4,7 @@ import ClientsCard from '../../components/ClientsCard/ClientsCard'
 
 const Clients = () => {
   return (
-    <div className='clients'>
+    <div className='clients' id='clients'>
       <div className="service__wrapper">
         <div className="service__info">
           <div className="service__info-title">

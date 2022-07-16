@@ -4,7 +4,7 @@ import TeamCard from '../../components/TeamCard/TeamCard'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'> 
       <div className="service__wrapper">
         <div className="service__info-title">
           <div>

@@ -7,6 +7,7 @@ import Process from './container/Process/Process';
 import Clients from './container/Clients/Clients';
 import Features from './container/Features/Features';
 import About from './container/About/About';
+import Contact from './container/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Clients />
       <Features />
       <About />
+      <Contact />
       <Footer />
     </div>
   );

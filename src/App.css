@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 .custom-button{
     padding: 15px 30px;

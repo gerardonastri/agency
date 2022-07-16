@@ -4,7 +4,7 @@ import ProcessCard from '../../components/ProcessCard/ProcessCard'
 
 const Process = () => {
   return (
-    <div className='process'>
+    <div className='process' id='process'>
       <div className="service__wrapper">
         <div className="service__info">
           <div className="service__info-title">

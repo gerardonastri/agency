@@ -1,0 +1,39 @@
+.contactForm{
+    flex: 1;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+}
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.flex .inputGroup{
+    width: 100%;
+}
+.inputGroup input, .inputGroup textarea{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 5px;
+    outline-color: var(--color-pink);
+}
+.inputGroup label{
+    color: #252837;
+    font-size: 14px;
+    font-weight: 400;
+}
+@media screen and (max-width: 700px) {
+    .flex{
+        flex-direction: column;
+        gap: 0;
+    }
+    .contactForm{
+        padding: 0 20px;
+        width: 80%;
+    }
+}

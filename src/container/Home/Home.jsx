@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <h1 className="home__title">
         We are web agency based in Los Angeles, CA
       </h1>
@@ -12,14 +12,14 @@ const Home = () => {
         </div>
         <div className="home__info-links">
           <div>
-            <a href="#">Technology</a>
-            <a href="#">Marketing</a>
-            <a href="#">Product & Design</a>
+            <a href="#home">Technology</a>
+            <a href="#home">Marketing</a>
+            <a href="#home">Product & Design</a>
           </div>
           <div>
-            <a href="#">Strategic Consulting</a>
-            <a href="#">Business Synergies</a>
-            <a href="#">Fundrising</a>
+            <a href="#home">Strategic Consulting</a>
+            <a href="#home">Business Synergies</a>
+            <a href="#home">Fundrising</a>
           </div>
         </div>
       </div>
