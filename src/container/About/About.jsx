@@ -1,6 +1,12 @@
 import React from 'react'
 import './About.css'
 import TeamCard from '../../components/TeamCard/TeamCard'
+import aboutImg from '../../images/about.webp'
+import img1 from '../../images/person-1.webp'
+import img2 from '../../images/person-2.webp'
+import img3 from '../../images/person-3.webp'
+import img4 from '../../images/person-4.webp'
+
 
 const About = () => {
   return (
@@ -13,7 +19,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__info">
-          <img src="https://preview.colorlib.com/theme/pageone/images/xabout_1.jpg.pagespeed.ic.cqA1ZZJiPN.webp" alt="about info" />
+          <img src={aboutImg} alt="about info" />
           <div>
             <h2 className="about__info-title">Our Office</h2>
             <p className="about__info-desc"><b>Separated they live in Bookmarksgrove</b> right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
@@ -27,10 +33,10 @@ const About = () => {
         <div className="about__team">
           <h2>Our Team</h2>
           <div className="about__team-cards">
-            <TeamCard img="https://preview.colorlib.com/theme/pageone/images/xperson_1.jpg.pagespeed.ic.FPPJMandp9.webp" title="Bradley Costa" position="CEO, Partner" />
-            <TeamCard img="https://preview.colorlib.com/theme/pageone/images/xperson_2.jpg.pagespeed.ic.WP7nwqVs-9.webp" title="Chanice Muir" position="CTO, Partner" />
-            <TeamCard img="https://preview.colorlib.com/theme/pageone/images/xperson_3.jpg.pagespeed.ic.omskDCiiog.webp" title="Alisha Ellison" position="Web Designer" />
-            <TeamCard img="https://preview.colorlib.com/theme/pageone/images/xperson_4.jpg.pagespeed.ic.ZZyyDWl-59.webp" title="Justin Smith" position="Web Developer" />
+            <TeamCard img={img1} title="Bradley Costa" position="CEO, Partner" />
+            <TeamCard img={img2} title="Chanice Muir" position="CTO, Partner" />
+            <TeamCard img={img3} title="Alisha Ellison" position="Web Designer" />
+            <TeamCard img={img4} title="Justin Smith" position="Web Developer" />
           </div>
         </div>
 

@@ -1,6 +1,10 @@
 import React from 'react'
 import './Services.css'
 import ServiceCard from '../../components/ServiceCard/ServiceCard'
+import img1 from '../../images/service-1.webp'
+import img2 from '../../images/service-2.webp'
+import img3 from '../../images/service-3.webp'
+import img4 from '../../images/service-4.webp'
 
 const Services = () => {
   return (
@@ -19,10 +23,10 @@ const Services = () => {
           </div>
         </div>
         <div className="service__card-container">
-          <ServiceCard title="Graphic Design" img="https://preview.colorlib.com/theme/pageone/images/ximg_1.jpg.pagespeed.ic.4tvbU5MAj5.webp"  />
-          <ServiceCard title="Web Development" img="https://preview.colorlib.com/theme/pageone/images/ximg_2.jpg.pagespeed.ic.yMZ53wnSqg.webp"  />
-          <ServiceCard title="Branding"  img="https://preview.colorlib.com/theme/pageone/images/ximg_3.jpg.pagespeed.ic.5-py9_Gm9i.webp"/>
-          <ServiceCard title="Iconography" img="https://preview.colorlib.com/theme/pageone/images/ximg_4.jpg.pagespeed.ic.xitJiC5SVk.webp"  />
+          <ServiceCard title="Graphic Design" img={img1} />
+          <ServiceCard title="Web Development" img={img2}  />
+          <ServiceCard title="Branding"  img={img3} />
+          <ServiceCard title="Iconography" img={img4}  />
         </div>
       </div>
     </div>

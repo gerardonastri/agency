@@ -1,6 +1,12 @@
 import React from 'react'
 import './Clients.css'
 import ClientsCard from '../../components/ClientsCard/ClientsCard'
+import img1 from '../../images/client-1.webp'
+import img2 from '../../images/client-2.webp'
+import img3 from '../../images/client-3.webp'
+import img4 from '../../images/client-4.webp'
+import img5 from '../../images/client-5.webp'
+
 
 const Clients = () => {
   return (
@@ -19,12 +25,12 @@ const Clients = () => {
           </div>
         </div>
         <div className="clients__card-container">
-          <ClientsCard title="Goldline" img="https://preview.colorlib.com/theme/pageone/images/xlogo-goldline.png.pagespeed.ic.40nSQphVgJ.webp"  />
-          <ClientsCard title="Foxhub" img="https://preview.colorlib.com/theme/pageone/images/xlogo-foxhub.png.pagespeed.ic.m_RIIjdghM.webp"  />
-          <ClientsCard title="Ideaa"  img="https://preview.colorlib.com/theme/pageone/images/xlogo-ideaa.png.pagespeed.ic.dcrk4QzNLC.webp"/>
-          <ClientsCard title="Nirastate" img="https://preview.colorlib.com/theme/pageone/images/xlogo-nirastate.png.pagespeed.ic.PYMusK9IB_.webp"  />
-          <ClientsCard title="Treva" img="https://preview.colorlib.com/theme/pageone/images/xlogo-treva.png.pagespeed.ic.djPyQqXp3h.webp"  />
-          <ClientsCard title="Goldline" img="https://preview.colorlib.com/theme/pageone/images/xlogo-goldline.png.pagespeed.ic.40nSQphVgJ.webp"  />
+          <ClientsCard title="Goldline" img={img1}/>
+          <ClientsCard title="Foxhub" img={img2}/>
+          <ClientsCard title="Ideaa"  img={img3}/>
+          <ClientsCard title="Nirastate" img={img4}/>
+          <ClientsCard title="Treva" img={img5}/>
+          <ClientsCard title="Goldline" img={img1}/>
         </div>
       </div>
     </div>
